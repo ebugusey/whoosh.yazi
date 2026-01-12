@@ -1,4 +1,4 @@
---- @since 25.5.28
+--- @since 26.1.4
 
 local path_sep = package.config:sub(1, 1)
 
