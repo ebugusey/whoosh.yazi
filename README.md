@@ -4,6 +4,10 @@
   <i>Save, search, and jump to your favorite paths in a blink</i>
 </p>
 
+<p align="center">
+  <img src="image/plugin.png" width="900" alt="Plugin preview" />
+</p>
+
 ---
 
 > [!TIP]
@@ -24,10 +28,6 @@
 > - **Quick bookmark creation** - Create temporary bookmarks directly from navigation menu
 > - **Project root navigation** - Jump to the current Git repository root with `-`
 > - **Configurable menu shortcuts** - Override the default Tab/Backspace/Enter/Space/- bindings from `init.lua`
-
-<div style="text-align: center;">
-  <img src="image/plugin.png" alt="Plugin preview" width="1100px">
-</div>
 
 ## Installation
 
@@ -465,3 +465,36 @@ When using `jump_by_key`, the following special controls are available:
 
 - [yamb](https://github.com/h-hg/yamb.yazi)
 - [bunny](https://github.com/stelcodes/bunny.yazi)
+
+## Star History
+
+<p align="center">
+  <a href="https://starchart.cc/WhoSowSee/whoosh.yazi">
+    <picture>
+      <source
+        media="(prefers-color-scheme: dark)"
+        srcset="https://starchart.cc/WhoSowSee/whoosh.yazi.svg?variant=custom&background=%230d1117&axis=%238b949e&line=%232f81f7"
+      />
+      <source
+        media="(prefers-color-scheme: light)"
+        srcset="https://starchart.cc/WhoSowSee/whoosh.yazi.svg?variant=custom&background=%23ffffff&axis=%2357606a&line=%230969da"
+      />
+      <img
+        alt="Stargazers over time"
+        src="https://starchart.cc/WhoSowSee/whoosh.yazi.svg?variant=custom&background=%23ffffff&axis=%2357606a&line=%230969da"
+      />
+    </picture>
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" alt="catppuccin" />
+</p>
+
+<p align="center">
+  <i><code>&copy 2026-present <a href="https://github.com/WhoSowSee">WhoSowSee</a></code></i>
+</p>
+
+<p align="center">
+  <a href="https://github.com/WhoSowSee/whoosh.yazi/blob/main/LICENSE"><img src="https://img.shields.io/github/license/WhoSowSee/whoosh.yazi?style=for-the-badge&color=CBA6F7&logoColor=cdd6f4&labelColor=302D41" alt="LICENSE"></a>
+</p>
