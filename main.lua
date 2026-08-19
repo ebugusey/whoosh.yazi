@@ -105,10 +105,18 @@ local function ensure_directory(path)
   if not dir_path then
     return
   end
-  if ya.target_family() == "windows" then
-    os.execute('mkdir "' .. dir_path:gsub("/", "\\") .. '" 2>nul')
-  else
-    os.execute('mkdir -p "' .. dir_path .. '"')
+  local stat = fs.cha(Url(dir_path), true)
+  if stat then
+    if stat.is_dir then
+      return
+    else
+      notify("Path exists but is not a directory: " .. dir_path, "error", 2)
+      return
+    end
+  end
+  local ok, err = fs.create("dir_all", Url(dir_path))
+  if not ok then
+    notify("Failed to create directory: " .. dir_path .. "\nError: " .. tostring(err), "error", 2)
   end
 end
 
